@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 //Module routing
-import { RoutingModule } from './routing.module';
 
+import { RoutingModule } from './routing.module';
+//Module
+import { SharedModule } from '../shared/shared.module';
 //Pages
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
@@ -16,7 +18,9 @@ import { DetailsComponent } from './details/details.component';
   ],
   imports: [
     CommonModule,
-    RoutingModule
+    RoutingModule,
+    SharedModule,
+    
   ]
 })
 export class PagesModule { }
