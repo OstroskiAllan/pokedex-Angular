@@ -1,27 +1,44 @@
 # Pokedex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+Este projeto é uma Pokédex online que consome a API oficial de Pokémon para exibir informações detalhadas sobre diferentes Pokémon.
 
-## Development server
+## Instalação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone o repositório:
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-## Code scaffolding
+2. Instale as dependências:
+npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Executando o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para iniciar o servidor de desenvolvimento, execute:
+ng serve
 
-## Running unit tests
+Acesse `http://localhost:4200/` no seu navegador.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologias Utilizadas
 
-## Running end-to-end tests
+- Angular
+- TypeScript
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Como Contribuir
 
-## Further help
+Você pode contribuir para este projeto enviando solicitações de pull. Certifique-se de seguir as diretrizes de contribuição.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licença
+
+Este projeto está licenciado sob os termos da Licença MIT.
+
+## Referências e Documentação
+
+- Documentação da [API de Pokémon](https://pokeapi.co/docs/v2)
+
+## Capturas de Tela
+![Tela inicial](https://github.com/OstroskiAllan/pokedex-Angular/assets/63799954/c53b39c3-4a03-45e0-8a44-095df91fdc99)
+
+![Pesquisa](https://github.com/OstroskiAllan/pokedex-Angular/assets/63799954/a6894f23-bf9e-4f9d-bcc0-53def2369cc0)
+
+![Informações do pokemon](https://github.com/OstroskiAllan/pokedex-Angular/assets/63799954/a99c138d-2368-480a-9237-7fab14688143)
